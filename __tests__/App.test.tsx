@@ -23,6 +23,10 @@ afterAll(() => {
   console.error = originalError;
 });
 
+jest.mock('react-native-bootsplash', () => ({
+  hide: jest.fn(),
+}));
+
 jest.mock('../src/stores/useQuestionnaireStore', () => ({
   useQuestionnaireStore: jest.fn(() => ({
     hasHydrated: true,
