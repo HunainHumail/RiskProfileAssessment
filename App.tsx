@@ -6,6 +6,7 @@ import { I18nextProvider } from 'react-i18next';
 import { NavigationContainer } from '@react-navigation/native';
 import RootNavigator from './src/navigation/RootNavigator';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import RNBootSplash from 'react-native-bootsplash';  // <-- import bootsplash
 
 export default function App() {
   const [isReady, setIsReady] = useState(false);
@@ -21,11 +22,14 @@ export default function App() {
 
         if (I18nManager.isRTL !== shouldBeRTL) {
           I18nManager.forceRTL(shouldBeRTL);
+          // You may want to reload the app to apply RTL changes (optional)
         }
 
         await i18n.changeLanguage(lng);
       } finally {
         if (isMounted) setIsReady(true);
+        // Hide the splash screen once ready
+        RNBootSplash.hide({ fade: true });
       }
     };
 
@@ -35,7 +39,6 @@ export default function App() {
       isMounted = false;
     };
   }, []);
-
 
   if (!isReady) return <ActivityIndicator testID="loading-indicator" size="large" style={{ flex: 1 }} />;
 

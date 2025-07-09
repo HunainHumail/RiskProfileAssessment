@@ -20,6 +20,7 @@
     "react": "19.1.0",
     "react-i18next": "^15.6.0",
     "react-native": "0.80.1",
+    "react-native-bootsplash": "^6.3.10",
     "react-native-localize": "^3.4.2",
     "react-native-reanimated": "^3.18.0",
     "react-native-restart": "^0.0.27",
