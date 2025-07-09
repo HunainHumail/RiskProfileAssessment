@@ -109,22 +109,38 @@ src/
 
 ## Screenshots
 
-### English
-- Welcome screen with language toggle  
-  ![Welcome Screen EN](https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/en/welcome.png)
+### English Screenshots
+<table>
+  <tr>
+    <td>
+      Welcome screen with language toggle<br>
+      <img src="https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/en/welcome.png" alt="Welcome Screen EN" width="200">
+    </td>
+    <td>
+      Animated question with selectable options<br>
+      <img src="https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/en/questions.png" alt="Question Screen EN" width="200">
+    </td>
+    <td>
+      Risk result displayed with speedometer and risk category<br>
+      <img src="https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/en/result.png" alt="Result Screen EN" width="200">
+    </td>
+  </tr>
+</table>
 
-- Animated question with selectable options  
-  ![Question Screen EN](https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/en/questions.png)
-
-- Risk result displayed with speedometer and risk category  
-  ![Result Screen EN](https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/en/result.png)
-
-### Arabic
-- Welcome screen with language toggle  
-  ![Welcome Screen AR](https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/ar/welcome.png)
-
-- Animated question with selectable options  
-  ![Question Screen AR](https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/ar/questions.png)
-
-- Risk result displayed with speedometer and risk category  
-  ![Result Screen AR](https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/ar/result.png)
+### Arabic Screenshots
+<table>
+  <tr>
+    <td>
+      Welcome screen with language toggle<br>
+      <img src="https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/ar/welcome.png" alt="Welcome Screen AR" width="200">
+    </td>
+    <td>
+      Animated question with selectable options<br>
+      <img src="https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/ar/questions.png" alt="Question Screen AR" width="200">
+    </td>
+    <td>
+      Risk result displayed with speedometer and risk category<br>
+      <img src="https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/ar/result.png" alt="Result Screen AR" width="200">
+    </td>
+  </tr>
+</table>
