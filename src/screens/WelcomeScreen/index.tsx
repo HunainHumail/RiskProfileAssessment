@@ -49,6 +49,7 @@ export default function WelcomeScreen() {
             >
                 <Text style={styles.buttonText}>{t('start')}</Text>
                 <NextIcon
+                    testID="next-icon"
                     style={{
                         transform: [{ scaleX: I18nManager.isRTL ? -1 : 1 }],
                     }}

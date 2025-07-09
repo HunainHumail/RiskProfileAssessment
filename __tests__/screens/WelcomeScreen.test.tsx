@@ -59,4 +59,5 @@ describe('WelcomeScreen', () => {
 
     expect(mockNavigate).toHaveBeenCalledWith('Question');
   });
+  
 });
