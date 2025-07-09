@@ -111,20 +111,20 @@ src/
 
 ### English
 - Welcome screen with language toggle  
-  ![Welcome Screen EN](https://github.com/username/repo-name/raw/main/screenshots/en/welcome.png)
+  ![Welcome Screen EN](https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/en/welcome.png)
 
 - Animated question with selectable options  
-  ![Question Screen EN](https://github.com/username/repo-name/raw/main/screenshots/en/question.png)
+  ![Question Screen EN](https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/en/questions.png)
 
 - Risk result displayed with speedometer and risk category  
-  ![Result Screen EN](https://github.com/username/repo-name/raw/main/screenshots/en/result.png)
+  ![Result Screen EN](https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/en/result.png)
 
 ### Arabic
 - Welcome screen with language toggle  
-  ![Welcome Screen AR](https://github.com/username/repo-name/raw/main/screenshots/ar/welcome.png)
+  ![Welcome Screen AR](https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/ar/welcome.png)
 
 - Animated question with selectable options  
-  ![Question Screen AR](https://github.com/username/repo-name/raw/main/screenshots/ar/question.png)
+  ![Question Screen AR](https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/ar/questions.png)
 
 - Risk result displayed with speedometer and risk category  
-  ![Result Screen AR](https://github.com/username/repo-name/raw/main/screenshots/ar/result.png)
+  ![Result Screen AR](https://github.com/HunainHumail/RiskProfileAssessment/raw/main/screenshots/ar/result.png)
