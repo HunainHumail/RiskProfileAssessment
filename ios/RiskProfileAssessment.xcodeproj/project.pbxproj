@@ -7,34 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000A6C7B94E54537A2873836 /* Sora-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB9D29EFAC404CCC9F6ABB22 /* Sora-Light.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-RiskProfileAssessment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RiskProfileAssessment.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		30DDD43C4B8F436A85F59EF9 /* Sora-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8BA9995F99548B5BB84FAB3 /* Sora-ExtraLight.ttf */; };
+		381C600F59234F7AAB11A345 /* Sora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F74A4E90EDBF43F2A0181BF0 /* Sora-Bold.ttf */; };
+		5C8193585B5C2FD808A78E39 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7C24909C10BA4112A4099A26 /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844362A49F7D4F93A77285E0 /* Sora-SemiBold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8444CE1E33B74F078CC20EA9 /* Sora-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0C1FEA32E7D4AF9A0C85694 /* Sora-ExtraBold.ttf */; };
+		8D48C173AD974A7F9B529A53 /* Sora-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B3BF1F17C7B4BCB8827B10A /* Sora-Thin.ttf */; };
+		B2DB5EF447D44BE89EA7EFAA /* Sora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF04FEF6995C41B0B0D2CC2B /* Sora-Medium.ttf */; };
+		FCB8FC5113A94314B358E693 /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17A99EADA9194751B3191468 /* Sora-Regular.ttf */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = RiskProfileAssessment;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RiskProfileAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiskProfileAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RiskProfileAssessment/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RiskProfileAssessment/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = RiskProfileAssessment/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		17A99EADA9194751B3191468 /* Sora-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-Regular.ttf"; path = "../src/assets/fonts/Sora-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-RiskProfileAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiskProfileAssessment.debug.xcconfig"; path = "Target Support Files/Pods-RiskProfileAssessment/Pods-RiskProfileAssessment.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RiskProfileAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiskProfileAssessment.release.xcconfig"; path = "Target Support Files/Pods-RiskProfileAssessment/Pods-RiskProfileAssessment.release.xcconfig"; sourceTree = "<group>"; };
+		5B3BF1F17C7B4BCB8827B10A /* Sora-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-Thin.ttf"; path = "../src/assets/fonts/Sora-Thin.ttf"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RiskProfileAssessment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RiskProfileAssessment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = RiskProfileAssessment/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RiskProfileAssessment/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844362A49F7D4F93A77285E0 /* Sora-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-SemiBold.ttf"; path = "../src/assets/fonts/Sora-SemiBold.ttf"; sourceTree = "<group>"; };
+		BB9D29EFAC404CCC9F6ABB22 /* Sora-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-Light.ttf"; path = "../src/assets/fonts/Sora-Light.ttf"; sourceTree = "<group>"; };
+		D8BA9995F99548B5BB84FAB3 /* Sora-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-ExtraLight.ttf"; path = "../src/assets/fonts/Sora-ExtraLight.ttf"; sourceTree = "<group>"; };
+		DF04FEF6995C41B0B0D2CC2B /* Sora-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-Medium.ttf"; path = "../src/assets/fonts/Sora-Medium.ttf"; sourceTree = "<group>"; };
+		E0C1FEA32E7D4AF9A0C85694 /* Sora-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-ExtraBold.ttf"; path = "../src/assets/fonts/Sora-ExtraBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F74A4E90EDBF43F2A0181BF0 /* Sora-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-Bold.ttf"; path = "../src/assets/fonts/Sora-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,14 +55,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356F01AD99517003FC87E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F11AD99517003FC87E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* RiskProfileAssessment */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +91,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				F3828EA6C90244608639E99C /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -114,6 +113,22 @@
 				5709B34CF0A7D63546082F79 /* Pods-RiskProfileAssessment.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3828EA6C90244608639E99C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F74A4E90EDBF43F2A0181BF0 /* Sora-Bold.ttf */,
+				E0C1FEA32E7D4AF9A0C85694 /* Sora-ExtraBold.ttf */,
+				D8BA9995F99548B5BB84FAB3 /* Sora-ExtraLight.ttf */,
+				BB9D29EFAC404CCC9F6ABB22 /* Sora-Light.ttf */,
+				DF04FEF6995C41B0B0D2CC2B /* Sora-Medium.ttf */,
+				17A99EADA9194751B3191468 /* Sora-Regular.ttf */,
+				844362A49F7D4F93A77285E0 /* Sora-SemiBold.ttf */,
+				5B3BF1F17C7B4BCB8827B10A /* Sora-Thin.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,19 +187,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00E356EC1AD99517003FC87E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5C8193585B5C2FD808A78E39 /* PrivacyInfo.xcprivacy in Resources */,
+				381C600F59234F7AAB11A345 /* Sora-Bold.ttf in Resources */,
+				8444CE1E33B74F078CC20EA9 /* Sora-ExtraBold.ttf in Resources */,
+				30DDD43C4B8F436A85F59EF9 /* Sora-ExtraLight.ttf in Resources */,
+				000A6C7B94E54537A2873836 /* Sora-Light.ttf in Resources */,
+				B2DB5EF447D44BE89EA7EFAA /* Sora-Medium.ttf in Resources */,
+				FCB8FC5113A94314B358E693 /* Sora-Regular.ttf in Resources */,
+				7C24909C10BA4112A4099A26 /* Sora-SemiBold.ttf in Resources */,
+				8D48C173AD974A7F9B529A53 /* Sora-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,14 +292,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* RiskProfileAssessment */;
-			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
@@ -408,7 +417,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -473,7 +489,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

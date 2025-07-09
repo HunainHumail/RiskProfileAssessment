@@ -1,0 +1,61 @@
+{
+    "start": "Start Questionnaire",
+    "welcome": "Welcome!",
+    "heading": "Risk Profile Assessment",
+    "description": "This quick assessment helps us understand your investment preferences and comfort with financial risk. Answer honestly — there are no right or wrong answers!",
+    "continue": "Continue",
+    "retake": "Retake Quiz",
+    "yourRisk": "Your Risk Profile",
+    "score": "Score: {{score}}",
+    "low": "Low Risk",
+    "medium": "Medium Risk",
+    "high": "High Risk",
+    "result": {
+        "title": "Your Risk Profile",
+        "score": "Score: {{total}}",
+        "retake": "Retake Quiz"
+    },
+    "risk": {
+        "low": "Low Risk",
+        "medium": "Medium Risk",
+        "high": "High Risk"
+    },
+
+
+
+    
+    "q1": {
+        "text": "How would you describe your investment knowledge?",
+        "opt1": "Novice",
+        "opt2": "Intermediate",
+        "opt3": "Advanced"
+    },
+    "q2": {
+        "text": "Investment Duration",
+        "opt1": "Short-term (less than 1 year)",
+        "opt2": "Medium-term (1-5 years)",
+        "opt3": "Long-term (more than 5 years)"
+    },
+    "q3": {
+        "text": "How comfortable are you with taking risks?",
+        "opt1": "Very risk-averse",
+        "opt2": "Somewhat risk-averse",
+        "opt3": "Neutral",
+        "opt4": "Somewhat risk-tolerant",
+        "opt5": "Very risk-tolerant"
+    },
+    "q4": {
+        "text": "What percentage of your income are you willing to invest?",
+        "opt1": "Less than 10%",
+        "opt2": "10-25%",
+        "opt3": "25-50%",
+        "opt4": "More than 50%"
+    },
+    "q5": {
+        "text": "How would you react to a sudden drop in the value of your investments?",
+        "opt1": "Panic and sell immediately",
+        "opt2": "Monitor and consider selling",
+        "opt3": "Hold and wait",
+        "opt4": "Buy more"
+    }
+}
