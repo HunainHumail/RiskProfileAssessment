@@ -1,97 +1,130 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Risk Profile Assessment App (RAKBANK)
 
-# Getting Started
+A React Native mobile application for RAKBANK that helps users determine their investment risk profile through an intuitive questionnaire. The app supports English and Arabic languages, including full LTR and RTL layouts with localization using i18next.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## Table of Contents
+- [Features](#features)
+- [Bonus Features](#bonus-features)
+- [Scoring Logic](#scoring-logic)
+- [Directory Structure](#directory-structure)
+- [Installation & Running the App](#installation--running-the-app)
+- [Unit Testing & Code Coverage](#unit-testing--code-coverage)
+- [Screenshots](#screenshots)
 
-## Step 1: Start Metro
+## Features
+- Multi-language support (English and Arabic) with RTL and LTR layouts.
+- Persistent questionnaire state: user answers are saved so they can continue where they left off after quitting the app.
+- Smooth navigation flow across Welcome, Question, and Result screens.
+- Dynamic risk calculation based on user responses.
+- Native splash screen with react-native-bootsplash.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## Bonus Features
+- Animated question transitions for a polished, smooth user experience.
+- Results displayed with a speedometer component, visually representing the user's risk level.
+- Full RTL support for Arabic language including mirroring UI components.
+- State persistence ensuring no data loss if the user closes or quits the app mid-assessment.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## Scoring Logic
+The risk profile score is calculated by summing the scores assigned to each selected answer. Based on the total score, the risk category and UI visuals are determined as follows:
 
-```sh
-# Using npm
-npm start
+| Total Score Range | Risk Category | Color          | Icon        |
+|-------------------|---------------|----------------|-------------|
+| 0 – 8             | Low Risk      | colors.riskLow | ShieldCheck |
+| 9 – 12            | Medium Risk   | colors.riskMedium | (Default icon) |
+| 13 and above      | High Risk     | colors.riskHigh | ShieldX     |
 
-# OR using Yarn
-yarn start
+The app uses i18n translation keys to display the risk category label dynamically based on the selected language.
+
+## Directory Structure
+```
+src/
+├── assets/
+│   ├── fonts/
+│   ├── icons/
+│   └── images/
+├── components/
+│   ├── Header.tsx
+│   ├── PrimaryButton.tsx
+│   └── Speedometer.tsx
+├── data/
+│   └── questions.ts
+├── i18n/
+│   ├── locales/
+│   └── index.ts
+├── navigation/
+│   ├── RootNavigator.tsx
+│   └── types.ts
+├── screens/
+│   ├── QuestionScreen/
+│   │   ├── index.tsx
+│   │   └── styles.ts
+│   ├── ResultScreen/
+│   └── WelcomeScreen/
+├── stores/
+│   └── useQuestionnaireStore.ts
+└── utils/
+    ├── theme/
+    └── Images.ts
 ```
 
-## Step 2: Build and run your app
+## Installation & Running the App
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+### Prerequisites
+- Node.js (>=18 recommended)
+- Yarn or npm
+- React Native CLI
+- Android Studio or Xcode (for Android and iOS simulators/emulators)
+- Physical device or emulator/simulator for testing
 
-### Android
+### Setup
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
 
-```sh
-# Using npm
-npm run android
+2. Install dependencies:
+   ```bash
+   yarn install
+   # or
+   npm install
+   ```
 
-# OR using Yarn
-yarn android
-```
+3. Run on Android:
+   ```bash
+   npx react-native run-android
+   ```
 
-### iOS
+4. Run on iOS:
+   ```bash
+   cd ios && pod install && cd ..
+   npx react-native run-ios
+   ```
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+## Unit Testing & Code Coverage
+- Testing is done using `@testing-library/react-native` and `jest`.
+- Mocking includes `AsyncStorage`, `i18n`, Zustand stores, and native splash screen module (`react-native-bootsplash`).
+- Tests cover rendering, navigation flow, language changes including RTL handling, and persistent state behavior.
+- Code coverage is approximately 90%+, surpassing the assignment requirement of 80%.
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+## Screenshots
 
-```sh
-bundle install
-```
+### English
+- Welcome screen with language toggle  
+  ![Welcome Screen EN](https://github.com/username/repo-name/raw/main/screenshots/en/welcome.png)
 
-Then, and every time you update your native dependencies, run:
+- Animated question with selectable options  
+  ![Question Screen EN](https://github.com/username/repo-name/raw/main/screenshots/en/question.png)
 
-```sh
-bundle exec pod install
-```
+- Risk result displayed with speedometer and risk category  
+  ![Result Screen EN](https://github.com/username/repo-name/raw/main/screenshots/en/result.png)
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+### Arabic
+- Welcome screen with language toggle  
+  ![Welcome Screen AR](https://github.com/username/repo-name/raw/main/screenshots/ar/welcome.png)
 
-```sh
-# Using npm
-npm run ios
+- Animated question with selectable options  
+  ![Question Screen AR](https://github.com/username/repo-name/raw/main/screenshots/ar/question.png)
 
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- Risk result displayed with speedometer and risk category  
+  ![Result Screen AR](https://github.com/username/repo-name/raw/main/screenshots/ar/result.png)
